@@ -7,6 +7,11 @@ btn.addEventListener("click", () => {
   const listItem = document.createElement("li");
 
   listItem.textContent = number;
-  number += 2;
   list.appendChild(listItem);
+
+  if (number % 3 == 0) {
+    listItem.classList.toggle("big");
+  }
+
+  number += 2;
 });
