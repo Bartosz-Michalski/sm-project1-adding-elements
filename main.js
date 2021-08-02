@@ -12,7 +12,13 @@ const buttonClick = function () {
   square.classList.add("square");
   square.textContent = number;
   squaresContainer.appendChild(square);
-  number += 1;
+
+  if (number % 5 == 0) {
+    square.classList.remove("square");
+    square.classList.add("circle");
+  }
+
+  number++;
 };
 
 mainButton.addEventListener("click", buttonClick);
