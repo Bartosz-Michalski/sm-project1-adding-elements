@@ -1,9 +1,6 @@
 const mainButton = document.querySelector(".main-button");
 const squaresContainer = document.querySelector(".squares-container");
 
-// const counter = function (number) {
-//   return number++;
-// };
 let number = 1;
 
 const buttonClick = function () {

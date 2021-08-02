@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+
+button {
+  display: block;
+  width: 220px;
+  height: 70px;
+  margin: 10px auto;
+  font-size: 18px;
+}
